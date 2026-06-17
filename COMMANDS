@@ -1,1 +1,97 @@
+linux BASICS:
 
+TO CREATE FIELS 
+touch madhu 
+touch <fname>
+touch file1 file2 file3 ...file-n
+
+TO CREATE DIRECTORY:
+mkdir <dir>
+mkdir dir1 dir2 dir3 
+pwd
+    - /c/Users/Dell/Desktop/27may25
+Delete 	
+rm -rf fname/dirname
+
+TO view:
+ls
+ll
+ls -lrth 
+ls -la 
+
+cd dirname
+cd ..
+==============================================================================================================================
+clear 
+ctrl + L 
+
+cat <fname>
+history
+==============================================================================================================================
+git init  ---> empty repo 
+
+Below is the command to configure the username and password
+
+git config --global user.name "KIRAN MADHU"
+git config --global user.email "kiranmadhu@gmail.com"
+touch file1
+git status -- red (untracked)
+git add fname 
+git status  --> green 
+git commit -m "msg" fname
+
+
+================================================================================================================================
+B16PROJECTREPO 
+
+git clone https://github.com/devopstraininghub/b16projectrepo.git
+ll ---> b16projectrepo
+cd b16projectrepo
+touch files 
+git status ---> red 
+git add .  ---> green 
+git commit  --> cid 
+git status 
+git log 
+git push  
+==================================================================================================================================
+Scenarios Covered in class :
+ADDING THE FILE 
+MODIFING THE FILE 
+DELETING THE FILE 
+==================================================================================================================================
+
+Working as a Team in Project :
+
+git clone https://github.com/devopstraininghub/b16projectrepo.git
+ls
+cd b16projectrepo
+touch Ramani 
+git add .
+git status
+git commit -m "Ramani commit" 
+git log
+git push 
+===================================================================================================================================
+git pull --rebase 
+git push 
+===================================================================================================================================
+
+GIT BRANCH :
+
+git branch
+git branch <br.name> 
+git checkout <br.name> 
+git checkout -b <br.name>
+git checkout main/master
+git merge <br.name> 
+git branch -d <br.name> 
+=======================================================================================================================================
+
+If we want to push the code from local to Repo
+
+git push https://github.com/devopstraininghub/b16projectrepo.git <br.name> 
+git push origin brname
+git push origin -d 
+
+========================================================================================================================================
